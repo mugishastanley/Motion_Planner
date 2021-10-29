@@ -1,0 +1,5 @@
+universal_robot/ur_description
+/home/adminuser/ws_moveit/devel/.private/ur_description/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
+/home/adminuser/ws_moveit/devel/.private/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake /home/adminuser/ws_moveit/devel/share/ur_description/cmake/ur_descriptionConfig.cmake
+/home/adminuser/ws_moveit/devel/.private/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake /home/adminuser/ws_moveit/devel/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+/home/adminuser/ws_moveit/devel/.private/ur_description/lib/pkgconfig/ur_description.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/ur_description.pc

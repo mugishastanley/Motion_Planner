@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/adminuser/ws_moveit/src/motion_planning/CMakeLists.txt:145 (add_library):
+  Cannot find source file:
+
+    src/universal_robot/ur_kinematics/include/ur_kinematics/ur_kin.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: motion_planning
+CMake Error: Cannot determine link language for target "motion_planning".
+make: *** [cmake_check_build_system] Error 1

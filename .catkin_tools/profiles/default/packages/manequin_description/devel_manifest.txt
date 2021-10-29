@@ -1,0 +1,5 @@
+myur5sim/manequin_description
+/home/adminuser/ws_moveit/devel/.private/manequin_description/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
+/home/adminuser/ws_moveit/devel/.private/manequin_description/share/manequin_description/cmake/manequin_descriptionConfig.cmake /home/adminuser/ws_moveit/devel/share/manequin_description/cmake/manequin_descriptionConfig.cmake
+/home/adminuser/ws_moveit/devel/.private/manequin_description/share/manequin_description/cmake/manequin_descriptionConfig-version.cmake /home/adminuser/ws_moveit/devel/share/manequin_description/cmake/manequin_descriptionConfig-version.cmake
+/home/adminuser/ws_moveit/devel/.private/manequin_description/lib/pkgconfig/manequin_description.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/manequin_description.pc

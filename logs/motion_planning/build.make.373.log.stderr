@@ -1,0 +1,12 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:248:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::PlanningSceneInterface::applyPlanningScene(planning_scene::PlanningScene&)[m[K’
+       planning_scene_interface.applyPlanningScene(ps[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:6:0[m[K:
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_interface/planning_scene_interface.h:129:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::planning_interface::PlanningSceneInterface::applyPlanningScene(const PlanningScene&)
+   bool [01;36m[KapplyPlanningScene[m[K(const moveit_msgs::PlanningScene& ps);
+        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_interface/planning_scene_interface.h:129:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene::PlanningScene[m[K’ to ‘[01m[Kconst PlanningScene& {aka const moveit_msgs::PlanningScene_<std::allocator<void> >&}[m[K’
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

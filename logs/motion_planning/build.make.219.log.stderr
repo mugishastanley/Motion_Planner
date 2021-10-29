@@ -1,0 +1,22 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:74:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(planning_scene_monitor::PlanningSceneMonitor*&)[m[K’
+   planning_scene_monitor::LockedPlanningSceneRO locked_planning_scene_(planning_scene_monitor[01;31m[K)[m[K;
+                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:9:0[m[K:
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:643:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(const PlanningSceneMonitorPtr&, bool)
+   [01;36m[KLockedPlanningSceneRO[m[K(const PlanningSceneMonitorPtr& planning_scene_monitor, bool read_only)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:643:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:616:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(const PlanningSceneMonitorPtr&)
+   [01;36m[KLockedPlanningSceneRO[m[K(const PlanningSceneMonitorPtr& planning_scene_monitor)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:616:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor*[m[K’ to ‘[01m[Kconst PlanningSceneMonitorPtr& {aka const std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}[m[K’
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:613:7:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(const planning_scene_monitor::LockedPlanningSceneRO&)
+ class [01;36m[KLockedPlanningSceneRO[m[K
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:613:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor*[m[K’ to ‘[01m[Kconst planning_scene_monitor::LockedPlanningSceneRO&[m[K’
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:613:7:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(planning_scene_monitor::LockedPlanningSceneRO&&)
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:613:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor*[m[K’ to ‘[01m[Kplanning_scene_monitor::LockedPlanningSceneRO&&[m[K’
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

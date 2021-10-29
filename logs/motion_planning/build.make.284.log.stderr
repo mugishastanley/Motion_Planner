@@ -1,0 +1,25 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:101:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_monitor::LockedPlanningSceneRO::LockedPlanningSceneRO(const PlanningSceneMonitorPtr&, bool)[m[K’ is protected within this context
+   planning_scene_monitor::LockedPlanningSceneRO planning_scene_RO(psm_ptr, true[01;31m[K)[m[K;
+                                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:9:0[m[K:
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:643:3:[m[K [01;36m[Knote: [m[Kdeclared protected here
+   [01;36m[KLockedPlanningSceneRO[m[K(const PlanningSceneMonitorPtr& planning_scene_monitor, bool read_only)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:107:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K’
+   planning_scene_monitor[01;31m[K->[m[KstartSceneMonitor("move_group/monitored_planning_scene");
+                         [01;31m[K^~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:111:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K’
+   planning_scene_monitor[01;31m[K->[m[KstartStateMonitor(JOINT_STATES, ATT_COL_OBJECTS);
+                         [01;31m[K^~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:222:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const class planning_scene::PlanningScene {aka const class planning_scene::PlanningScene}[m[K’ has no member named ‘[01m[Koperator->[m[K’; did you mean ‘[01m[Koperator=[m[K’?
+     const planning_scene::PlanningSceneConstPtr ps_c_ptr = planning_scene_RO->operator[01;31m[K->[m[K();
+                                                                                       [01;31m[K^~[m[K
+                                                                                       [32m[Koperator=[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:223:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass planning_scene_monitor::PlanningSceneMonitor[m[K’ has no member named ‘[01m[KupdateScene[m[K’; did you mean ‘[01m[KupdatesScene[m[K’?
+     planning_scene_monitor.[01;31m[KupdateScene[m[K(ps_c_ptr);
+                            [01;31m[K^~~~~~~~~~~[m[K
+                            [32m[KupdatesScene[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

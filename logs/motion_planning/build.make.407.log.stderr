@@ -1,0 +1,15 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:235:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::getPlanningScenePublishingFrequency(int)[m[K’
+     planning_scene_monitor->getPlanningScenePublishingFrequency(20[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:9:0[m[K:
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:275:10:[m[K [01;36m[Knote: [m[Kcandidate: double planning_scene_monitor::PlanningSceneMonitor::getPlanningScenePublishingFrequency() const
+   double [01;36m[KgetPlanningScenePublishingFrequency[m[K() const
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:275:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:237:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kcout[m[K’
+     [01;31m[Kcout[m[K << "us: " << us << endl;
+     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

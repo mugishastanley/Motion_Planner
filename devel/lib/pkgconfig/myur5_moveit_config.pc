@@ -1,0 +1,1 @@
+/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/lib/pkgconfig/myur5_moveit_config.pc

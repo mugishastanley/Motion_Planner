@@ -1,0 +1,1 @@
+/home/adminuser/ws_moveit/devel/.private/manequin_description/lib/pkgconfig/manequin_description.pc

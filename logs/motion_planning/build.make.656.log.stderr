@@ -1,0 +1,13 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:109:56:[m[K [01;35m[Kwarning: [m[Kargument 1 value ‘[01m[K18446744073709549536[m[K’ exceeds maximum object size 9223372036854775807 [[01;35m[K-Walloc-size-larger-than=[m[K]
+   moveit::planning_interface::MoveGroupInterface::Plan [01;35m[Kplan_array[m[K[noe];
+                                                        [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:109:56:[m[K [01;36m[Knote: [m[Kin a call to built-in allocation function ‘[01m[Kvoid* __builtin_alloca_with_align(long unsigned int, long unsigned int)[m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:114:15:[m[K [01;35m[Kwarning: [m[Kargument 1 value ‘[01m[K18446744073709551488[m[K’ exceeds maximum object size 9223372036854775807 [[01;35m[K-Walloc-size-larger-than=[m[K]
+   std::string [01;35m[Kstart_name[m[K[noe];
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:114:15:[m[K [01;36m[Knote: [m[Kin a call to built-in allocation function ‘[01m[Kvoid* __builtin_alloca_with_align(long unsigned int, long unsigned int)[m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:115:15:[m[K [01;35m[Kwarning: [m[Kargument 1 value ‘[01m[K18446744073709551488[m[K’ exceeds maximum object size 9223372036854775807 [[01;35m[K-Walloc-size-larger-than=[m[K]
+   std::string [01;35m[Kfinal_name[m[K[noe];
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_reader_18.cpp:115:15:[m[K [01;36m[Knote: [m[Kin a call to built-in allocation function ‘[01m[Kvoid* __builtin_alloca_with_align(long unsigned int, long unsigned int)[m[K’

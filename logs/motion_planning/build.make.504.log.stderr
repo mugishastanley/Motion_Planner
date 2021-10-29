@@ -1,0 +1,31 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/sensor_msgs/PointCloud.h:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_listener.h:35[m[K,
+                 from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:3[m[K:
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:263:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:577:82:[m[K   required from ‘[01m[Kvoid rosbag::Bag::doWrite(const string&, const ros::Time&, const T&, const boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:375:5:[m[K   required from ‘[01m[Kvoid rosbag::Bag::write(const string&, const ros::Time&, const T&, boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:385:58:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:142:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::vector<sensor_msgs::JointState_<std::allocator<void> > >[m[K’ has no member named ‘[01m[K__getDataType[m[K’
+     return [01;31m[Km.__getDataType[m[K().c_str();
+            [01;31m[K~~^~~~~~~~~~~~~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:254:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:578:80:[m[K   required from ‘[01m[Kvoid rosbag::Bag::doWrite(const string&, const ros::Time&, const T&, const boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:375:5:[m[K   required from ‘[01m[Kvoid rosbag::Bag::write(const string&, const ros::Time&, const T&, boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:385:58:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:125:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::vector<sensor_msgs::JointState_<std::allocator<void> > >[m[K’ has no member named ‘[01m[K__getMD5Sum[m[K’
+     return [01;31m[Km.__getMD5Sum[m[K().c_str();
+            [01;31m[K~~^~~~~~~~~~~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::Definition<M>::value(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:272:106:[m[K   required from ‘[01m[Kconst char* ros::message_traits::definition(const M&) [with M = std::vector<sensor_msgs::JointState_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:579:84:[m[K   required from ‘[01m[Kvoid rosbag::Bag::doWrite(const string&, const ros::Time&, const T&, const boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/rosbag/bag.h:375:5:[m[K   required from ‘[01m[Kvoid rosbag::Bag::write(const string&, const ros::Time&, const T&, boost::shared_ptr<std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >) [with T = std::vector<sensor_msgs::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:385:58:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:159:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::vector<sensor_msgs::JointState_<std::allocator<void> > >[m[K’ has no member named ‘[01m[K__getMessageDefinition[m[K’
+     return [01;31m[Km.__getMessageDefinition[m[K().c_str();
+            [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/matrix_storer.dir/src/matrix_storer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/matrix_storer.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,35 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:79:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(planning_scene::PlanningScenePtr&)[m[K’
+   planning_scene_monitor = new planning_scene_monitor::PlanningSceneMonitor(ps_ptr[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:9:0[m[K:
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:155:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const PlanningScenePtr&, const RobotModelLoaderPtr&, const ros::NodeHandle&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)
+   [01;36m[KPlanningSceneMonitor[m[K(const planning_scene::PlanningScenePtr& scene,
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:155:3:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:141:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const PlanningScenePtr&, const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)
+   [01;36m[KPlanningSceneMonitor[m[K(const planning_scene::PlanningScenePtr& scene,
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:141:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:131:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const PlanningScenePtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)
+   [01;36m[KPlanningSceneMonitor[m[K(const planning_scene::PlanningScenePtr& scene, const std::string& robot_description,
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:131:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:121:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)
+   [01;36m[KPlanningSceneMonitor[m[K(const robot_model_loader::RobotModelLoaderPtr& rml,
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:121:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene::PlanningScenePtr {aka std::shared_ptr<planning_scene::PlanningScene>}[m[K’ to ‘[01m[Kconst RobotModelLoaderPtr& {aka const std::shared_ptr<robot_model_loader::RobotModelLoader>&}[m[K’
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:112:3:[m[K [01;36m[Knote: [m[Kcandidate: planning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)
+   [01;36m[KPlanningSceneMonitor[m[K(const std::string& robot_description,
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:112:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene::PlanningScenePtr {aka std::shared_ptr<planning_scene::PlanningScene>}[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:171:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klocked_planning_scene_[m[K’ was not declared in this scope
+     bool ispathvalid = [01;31m[Klocked_planning_scene_[m[K->isPathValid(start_state_,trajectory_,"manipulator");
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:171:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kplanning_scene_[m[K’
+     bool ispathvalid = [01;36m[Klocked_planning_scene_[m[K->isPathValid(start_state_,trajectory_,"manipulator");
+                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+                        [32m[Kplanning_scene_[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

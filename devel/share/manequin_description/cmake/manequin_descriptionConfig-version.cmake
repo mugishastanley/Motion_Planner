@@ -1,0 +1,1 @@
+/home/adminuser/ws_moveit/devel/.private/manequin_description/share/manequin_description/cmake/manequin_descriptionConfig-version.cmake

@@ -1,0 +1,11 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:[m[K In function ‘[01m[Kvoid cb_pose(geometry_msgs::Pose)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:81:33:[m[K [01;31m[Kerror: [m[K‘[01m[KRfin[m[K’ was not declared in this scope
+   cout << "Rfinal =" << endl << [01;31m[KRfin[m[K << endl;
+                                 [01;31m[K^~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:81:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KR_fin[m[K’
+   cout << "Rfinal =" << endl << [01;36m[KRfin[m[K << endl;
+                                 [01;36m[K^~~~[m[K
+                                 [32m[KR_fin[m[K
+make[2]: *** [CMakeFiles/sphere_rosBridge.dir/src/sphere_rosBridge.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sphere_rosBridge.dir/all] Error 2
+make: *** [all] Error 2

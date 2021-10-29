@@ -1,0 +1,10 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/velocity_scaling.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/velocity_scaling.cpp:138:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_joint_names_type {aka class std::vector<std::__cxx11::basic_string<char> >}[m[K’ has no member named ‘[01m[Klength[m[K’
+   int n_joints = my_plan2.trajectory_.joint_trajectory.joint_names.[01;31m[Klength[m[K();
+                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/velocity_scaling.cpp:139:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka class std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Klength[m[K’
+   int n_points = my_plan2.trajectory_.joint_trajectory.points.[01;31m[Klength[m[K();
+                                                               [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/velocity_scaling.dir/src/velocity_scaling.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_scaling.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,33 @@
+In file included from [01m[K/opt/ros/melodic/include/tf2/convert.h:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer_interface.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:49[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:4[m[K:
+/opt/ros/melodic/include/tf2/impl/convert.h: In instantiation of ‘[01m[Kstatic void tf2::impl::Converter<IS_MESSAGE_A, IS_MESSAGE_B>::convert(const A&, B&) [with A = tf2::Quaternion; B = geometry_msgs::Quaternion_<std::allocator<void> >; bool IS_MESSAGE_A = false; bool IS_MESSAGE_B = true][m[K’:
+[01m[K/opt/ros/melodic/include/tf2/convert.h:116:113:[m[K   required from ‘[01m[Kvoid tf2::convert(const A&, B&) [with A = tf2::Quaternion; B = geometry_msgs::Quaternion_<std::allocator<void> >][m[K’
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:355:51:[m[K   required from here
+[01m[K/opt/ros/melodic/include/tf2/impl/convert.h:65:12:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(const tf2::Quaternion&)[m[K’
+   b = [01;31m[KtoMsg(a)[m[K;
+       [01;31m[K~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf2_ros/buffer_interface.h:40:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:49[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:4[m[K:
+[01m[K/opt/ros/melodic/include/tf2/convert.h:94:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class A, class B> B tf2::toMsg(const A&)
+   B [01;36m[KtoMsg[m[K(const A& a);
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2/convert.h:94:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/melodic/include/tf2/convert.h:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer_interface.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:49[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:4[m[K:
+[01m[K/opt/ros/melodic/include/tf2/impl/convert.h:65:12:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[KB[m[K’
+   b = [01;36m[KtoMsg(a)[m[K;
+       [01;36m[K~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

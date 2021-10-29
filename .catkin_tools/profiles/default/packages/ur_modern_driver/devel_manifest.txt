@@ -1,0 +1,7 @@
+ur_modern_driver
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/share/ur_modern_driver/cmake/ur_modern_driverConfig.cmake /home/adminuser/ws_moveit/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig.cmake
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/share/ur_modern_driver/cmake/ur_modern_driverConfig-version.cmake /home/adminuser/ws_moveit/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig-version.cmake
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/libur_hardware_interface.so /home/adminuser/ws_moveit/devel/lib/libur_hardware_interface.so
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_driver /home/adminuser/ws_moveit/devel/lib/ur_modern_driver/ur_driver
+/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/pkgconfig/ur_modern_driver.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/ur_modern_driver.pc

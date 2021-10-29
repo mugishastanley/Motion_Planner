@@ -1,0 +1,11 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:222:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const class planning_scene::PlanningScene {aka const class planning_scene::PlanningScene}[m[K’ has no member named ‘[01m[Koperator->[m[K’; did you mean ‘[01m[Koperator=[m[K’?
+     const planning_scene::PlanningSceneConstPtr ps_c_ptr = planning_scene_RO->operator[01;31m[K->[m[K();
+                                                                                       [01;31m[K^~[m[K
+                                                                                       [32m[Koperator=[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:223:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KupdateScene[m[K’ in ‘[01m[Kplanning_scene_monitor[m[K’, which is of pointer type ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     planning_scene_monitor.[01;31m[KupdateScene[m[K(ps_c_ptr);
+                            [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,22 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:29:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvectir[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+ std::[01;31m[Kvectir[m[K<sensor_msgs::JointState> js_robot;
+      [01;31m[K^~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:[m[K In function ‘[01m[Kvoid cb_js(const ConstPtr&)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjs_robot[m[K’ was not declared in this scope
+   [01;31m[Kjs_robot[m[K.header.push_back(js_msg->header);
+   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:32:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kchroot[m[K’
+   [01;36m[Kjs_robot[m[K.header.push_back(js_msg->header);
+   [01;36m[K^~~~~~~~[m[K
+   [32m[Kchroot[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:384:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kjs_robot[m[K’ was not declared in this scope
+         bag.write("execution", ros::Time::now(), [01;31m[Kjs_robot[m[K);
+                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer.cpp:384:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kchroot[m[K’
+         bag.write("execution", ros::Time::now(), [01;36m[Kjs_robot[m[K);
+                                                  [01;36m[K^~~~~~~~[m[K
+                                                  [32m[Kchroot[m[K
+make[2]: *** [CMakeFiles/matrix_storer.dir/src/matrix_storer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/matrix_storer.dir/all] Error 2
+make: *** [all] Error 2

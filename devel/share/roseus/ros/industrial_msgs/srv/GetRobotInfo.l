@@ -1,0 +1,1 @@
+/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/roseus/ros/industrial_msgs/srv/GetRobotInfo.l

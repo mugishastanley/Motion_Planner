@@ -1,0 +1,1 @@
+/home/adminuser/ws_moveit/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc

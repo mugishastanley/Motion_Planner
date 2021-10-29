@@ -1,0 +1,7 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:82:84:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetPlanningSceneMonitor[m[K’ in ‘[01m[Klocked_planning_scene_[m[K’, which is of pointer type ‘[01m[Kplanning_scene_monitor::LockedPlanningSceneRO*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   planning_scene_monitor::PlanningSceneMonitorPtr psm_ptr = locked_planning_scene_.[01;31m[KgetPlanningSceneMonitor[m[K();
+                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

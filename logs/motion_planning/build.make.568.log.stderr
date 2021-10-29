@@ -1,0 +1,57 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:37:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K0, 0) = 1;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:38:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K0, 1) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:39:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K0, 2) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:40:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K1, 0) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:41:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K1, 1) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:42:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K1, 2) = 1;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:43:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K2, 0) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:44:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K2, 1) = -1;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:45:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_x[01;31m[K([m[K2, 2) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:48:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z[01;31m[K([m[K0,0) = 0; R_z(0,1) = -1; R_z(0,2) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:48:18:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(0,0) = 0; R_z[01;31m[K([m[K0,1) = -1; R_z(0,2) = 0;
+                  [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:48:33:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(0,0) = 0; R_z(0,1) = -1; R_z[01;31m[K([m[K0,2) = 0;
+                                 [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:49:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z[01;31m[K([m[K1,0) = 1; R_z(1,1) = 0; R_z(1,2) = 0;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:49:18:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(1,0) = 1; R_z[01;31m[K([m[K1,1) = 0; R_z(1,2) = 0;
+                  [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:49:32:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(1,0) = 1; R_z(1,1) = 0; R_z[01;31m[K([m[K1,2) = 0;
+                                [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:50:4:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z[01;31m[K([m[K2,0) = 0; R_z(2,1) = 0; R_z(2,2) = 1;
+    [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:50:18:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(2,0) = 0; R_z[01;31m[K([m[K2,1) = 0; R_z(2,2) = 1;
+                  [01;31m[K^[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/sphere_rosBridge.cpp:50:32:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+ R_z(2,0) = 0; R_z(2,1) = 0; R_z[01;31m[K([m[K2,2) = 1;
+                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sphere_rosBridge.dir/src/sphere_rosBridge.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sphere_rosBridge.dir/all] Error 2
+make: *** [all] Error 2

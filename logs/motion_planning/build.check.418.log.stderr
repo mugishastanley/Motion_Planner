@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/adminuser/ws_moveit/src/motion_planning/CMakeLists.txt:145 (add_library):
+  The target name "universal_robot}}" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+make: *** [cmake_check_build_system] Error 1

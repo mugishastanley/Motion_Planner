@@ -1,0 +1,7 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:236:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kps_[m[K’ was not declared in this scope
+     bool obj_exist = [01;31m[Kps_[m[K->getCollisionWorld()->getWorld()->hasObject("left_palm");
+                      [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
+make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
+make: *** [all] Error 2

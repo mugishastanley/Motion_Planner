@@ -1,0 +1,24 @@
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+ [01;31m[Kgeometry_msgs[m[K::Pose pose_unity;
+ [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ does not name a type
+ [01;31m[Kframe[m[K = "";
+ [01;31m[K^~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:11:14:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kcb_pose[m[K’ declared void
+ void cb_pose([01;31m[Kgeometry_msgs[m[K::PoseStamped pose_msg){
+              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:11:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:46:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_handle[m[K’ was not declared in this scope
+   ros::Subscriber sub = [01;31m[Knode_handle[m[K.subscribe("listener", 1000, cb_pose);
+                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:46:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_pose[m[K’ was not declared in this scope
+   ros::Subscriber sub = node_handle.subscribe("listener", 1000, [01;31m[Kcb_pose[m[K);
+                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp:46:65:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kclose[m[K’
+   ros::Subscriber sub = node_handle.subscribe("listener", 1000, [01;36m[Kcb_pose[m[K);
+                                                                 [01;36m[K^~~~~~~[m[K
+                                                                 [32m[Kclose[m[K
+make[2]: *** [CMakeFiles/des_frame_pub.dir/src/des_frame_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/des_frame_pub.dir/all] Error 2
+make: *** [all] Error 2
