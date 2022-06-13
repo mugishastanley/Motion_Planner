@@ -12,8 +12,6 @@ It is the ROS based planner the lobby bot project. ##lobbybot project. [link](ht
 <li>Start the Listner </li>
 <li>Start the Unity Part of the project <li>
 </ol>
-If you find this repo helpful, please cite the following paper/s </br>
+If you find this repo helpful, please cite the following paper/s :</br>
 
-<i> Trajectory planning in Dynamics Environment:  Application for Haptic Perception in Safe HumanRobot Interaction </i>
-A Gutierrez, V Guda, S Mugisha, C Chevallereau, D Chablat, 
-arXiv preprint arXiv:2202.11336.
+A Gutierrez, V K Guda, S Mugisha, C Chevallereau, Damien Chablat. </b>Trajectory planning in Dynamics Environment : Application for Haptic Perception in Safe HumanRobot Interaction. 24TH INTERNATIONAL CONFERENCE ON HUMAN-COMPUTER INTERACTION, Jun 2022, Gothenburg, Sweden. ⟨hal-03583589⟩
