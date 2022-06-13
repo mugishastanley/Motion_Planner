@@ -1,10 +1,11 @@
 # Lobbybot-Motion-Planner
 # What is this
-This repo contains the trajectory planning in a dynamic environment in the context of the haptic Interface.</br>
-It is the ROS based planner the lobby bot project. ##lobbybot project. [link](https://www.lobbybot.fr/).
+This repo contains the trajectory planning and motion control part the project.</br>
+It is based on ROS Melodic and the UR industrial driver. ##lobbybot project. [link](https://www.lobbybot.fr/).
 
 # How to use.
 <ol>
+<li> Install ROS Melodic
 <li>Set up the UR5 
 <li> Set up RVIZ 
 <li>Add motion planning to the scene<
