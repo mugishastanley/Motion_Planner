@@ -1,4 +1,4 @@
-# Lobbybot-Motion-Planner
+# Lobbybot Motion Planning
 # What is this
 This repo contains the trajectory planning and motion control part the project.</br>
 It is based on ROS Melodic and the UR industrial driver. ##lobbybot project. [link](https://www.lobbybot.fr/).
