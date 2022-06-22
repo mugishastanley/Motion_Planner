@@ -15,4 +15,4 @@ It is based on ROS Melodic and the UR industrial driver. ##lobbybot project. [li
 </ol>
 If you find this repo helpful, please cite the following paper/s :</br>
 
-<li>A Gutierrez, V K Guda, S Mugisha, C Chevallereau, Damien Chablat. </b>Trajectory planning in Dynamics Environment : Application for Haptic Perception in Safe HumanRobot Interaction. 24TH INTERNATIONAL CONFERENCE ON HUMAN-COMPUTER INTERACTION, Jun 2022, Gothenburg, Sweden. ⟨hal-03583589⟩
+<li>Gutierrez, A., Guda, V.K., Mugisha, S., Chevallereau, C., Chablat, D. (2022). Trajectory Planning in Dynamics Environment: Application for Haptic Perception in Safe Human-Robot Interaction. In: Duffy, V.G. (eds) Digital Human Modeling and Applications in Health, Safety, Ergonomics and Risk Management. Health, Operations Management, and Design. HCII 2022. Lecture Notes in Computer Science, vol 13320. Springer, Cham. https://doi.org/10.1007/978-3-031-06018-2_22
