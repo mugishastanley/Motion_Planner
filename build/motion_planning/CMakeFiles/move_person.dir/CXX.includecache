@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/src/motion_planning/src/move_person.cpp
+/home/adminuser/ws_moveitbk/src/motion_planning/src/move_person.cpp
 iostream
 -
 tf2/LinearMath/Transform.h
@@ -32,7 +32,7 @@ geometry_msgs/Pose.h
 sensor_msgs/JointState.h
 -
 std_msgs/String.h
-/home/adminuser/ws_moveit/src/motion_planning/src/std_msgs/String.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/std_msgs/String.h
 math.h
 -
 

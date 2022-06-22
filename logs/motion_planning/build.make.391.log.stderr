@@ -1,7 +1,0 @@
-[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/into_ws.cpp:171:74:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kmoveit::core::RobotStatePtr {aka std::shared_ptr<moveit::core::RobotState>}[m[K’ to non-scalar type ‘[01m[Kmoveit::core::RobotState[m[K’ requested
-       robot_state::RobotState robot_state_mg = [01;31m[Kmove_group.getCurrentState()[m[K;
-                                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
-make[2]: *** [CMakeFiles/into_ws.dir/src/into_ws.cpp.o] Error 1
-make[1]: *** [CMakeFiles/into_ws.dir/all] Error 2
-make: *** [all] Error 2

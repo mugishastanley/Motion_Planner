@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminuser/ws_moveit/src/ur_modern_driver
+CMAKE_SOURCE_DIR = /home/adminuser/ws_moveitbk/src/ur_modern_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminuser/ws_moveit/build/ur_modern_driver
+CMAKE_BINARY_DIR = /home/adminuser/ws_moveitbk/build/ur_modern_driver
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/clean
 
 CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/adminuser/ws_moveit/build/ur_modern_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveit/src/ur_modern_driver /home/adminuser/ws_moveit/src/ur_modern_driver /home/adminuser/ws_moveit/build/ur_modern_driver /home/adminuser/ws_moveit/build/ur_modern_driver /home/adminuser/ws_moveit/build/ur_modern_driver/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminuser/ws_moveitbk/build/ur_modern_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveitbk/src/ur_modern_driver /home/adminuser/ws_moveitbk/src/ur_modern_driver /home/adminuser/ws_moveitbk/build/ur_modern_driver /home/adminuser/ws_moveitbk/build/ur_modern_driver /home/adminuser/ws_moveitbk/build/ur_modern_driver/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/depend
 

@@ -1,1 +1,18 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/msg/_package_RobotStatus.lisp
+(cl:in-package industrial_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          MODE-VAL
+          MODE
+          E_STOPPED-VAL
+          E_STOPPED
+          DRIVES_POWERED-VAL
+          DRIVES_POWERED
+          MOTION_POSSIBLE-VAL
+          MOTION_POSSIBLE
+          IN_MOTION-VAL
+          IN_MOTION
+          IN_ERROR-VAL
+          IN_ERROR
+          ERROR_CODE-VAL
+          ERROR_CODE
+))

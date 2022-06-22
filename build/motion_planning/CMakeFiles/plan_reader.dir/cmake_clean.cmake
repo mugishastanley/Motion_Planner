@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plan_reader.dir/src/plan_reader.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/plan_reader.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/plan_reader"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/plan_reader.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/plan_reader"
 )
 
 # Per-language clean rules from dependency scanning.

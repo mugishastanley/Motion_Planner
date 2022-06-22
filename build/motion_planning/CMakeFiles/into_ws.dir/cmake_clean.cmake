@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/into_ws.dir/src/into_ws.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/into_ws.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/into_ws"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/into_ws.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/into_ws"
 )
 
 # Per-language clean rules from dependency scanning.

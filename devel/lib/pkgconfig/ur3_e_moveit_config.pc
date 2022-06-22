@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/ur3_e_moveit_config/lib/pkgconfig/ur3_e_moveit_config.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: ur3_e_moveit_config
+Description: Description of ur3_e_moveit_config
+Version: 1.2.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

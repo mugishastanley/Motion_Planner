@@ -67,14 +67,14 @@ set(industrial_robot_client_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(industrial_robot_client_SOURCE_PREFIX /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client)
-  set(industrial_robot_client_DEVEL_PREFIX /home/adminuser/ws_moveit/devel/.private/industrial_robot_client)
+  set(industrial_robot_client_SOURCE_PREFIX /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client)
+  set(industrial_robot_client_DEVEL_PREFIX /home/adminuser/ws_moveitbk/devel)
   set(industrial_robot_client_INSTALL_PREFIX "")
   set(industrial_robot_client_PREFIX ${industrial_robot_client_DEVEL_PREFIX})
 else()
   set(industrial_robot_client_SOURCE_PREFIX "")
   set(industrial_robot_client_DEVEL_PREFIX "")
-  set(industrial_robot_client_INSTALL_PREFIX /home/adminuser/ws_moveit/install)
+  set(industrial_robot_client_INSTALL_PREFIX /home/adminuser/ws_moveitbk/install)
   set(industrial_robot_client_PREFIX ${industrial_robot_client_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/adminuser/ws_moveit/install/lib;/home/adminuser/ws_moveit/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/adminuser/ws_moveitbk/install/lib;/home/adminuser/ws_moveitbk/devel/lib;/home/adminuser/ws_moveit3/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

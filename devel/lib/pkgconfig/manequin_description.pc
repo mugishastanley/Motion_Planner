@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/manequin_description/lib/pkgconfig/manequin_description.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: manequin_description
+Description: Description of manequin_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

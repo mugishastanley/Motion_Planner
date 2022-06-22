@@ -1,5 +1,0 @@
-industrial_core/industrial_robot_simulator
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_simulator/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake /home/adminuser/ws_moveit/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake /home/adminuser/ws_moveit/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/industrial_robot_simulator.pc

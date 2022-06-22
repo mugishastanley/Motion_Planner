@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/src/motion_planning/src/des_frame_pub.cpp
+/home/adminuser/ws_moveitbk/src/motion_planning/src/des_frame_pub.cpp
 iostream
 -
 ros/ros.h

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_to_points.dir/src/move_to_points.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_to_points.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_to_points"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_to_points.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_to_points"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/lib/python2.7/dist-packages/industrial_msgs/msg/__init__.py
+from ._DebugLevel import *
+from ._DeviceInfo import *
+from ._RobotMode import *
+from ._RobotStatus import *
+from ._ServiceReturnCode import *
+from ._TriState import *

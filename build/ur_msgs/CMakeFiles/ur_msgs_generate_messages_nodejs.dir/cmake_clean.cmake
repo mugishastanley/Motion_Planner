@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur_msgs_generate_messages_nodejs"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/Digital.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/ToolDataMsg.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/IOStates.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/MasterboardDataMsg.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/RobotStateRTMsg.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/Analog.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/msg/RobotModeDataMsg.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetIO.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetSpeedSliderFraction.js"
-  "/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetPayload.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/Analog.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/ToolDataMsg.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/MasterboardDataMsg.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/IOStates.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/Digital.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/RobotModeDataMsg.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/msg/RobotStateRTMsg.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/srv/SetSpeedSliderFraction.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/srv/SetIO.js"
+  "/home/adminuser/ws_moveitbk/devel/share/gennodejs/ros/ur_msgs/srv/SetPayload.js"
 )
 
 # Per-language clean rules from dependency scanning.

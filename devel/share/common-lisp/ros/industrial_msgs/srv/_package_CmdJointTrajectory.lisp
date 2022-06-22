@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/_package_CmdJointTrajectory.lisp
+(cl:in-package industrial_msgs-srv)
+(cl:export '(TRAJECTORY-VAL
+          TRAJECTORY
+          CODE-VAL
+          CODE
+))

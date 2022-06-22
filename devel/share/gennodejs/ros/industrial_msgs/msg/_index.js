@@ -1,1 +1,18 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/gennodejs/ros/industrial_msgs/msg/_index.js
+
+"use strict";
+
+let TriState = require('./TriState.js');
+let DeviceInfo = require('./DeviceInfo.js');
+let DebugLevel = require('./DebugLevel.js');
+let ServiceReturnCode = require('./ServiceReturnCode.js');
+let RobotMode = require('./RobotMode.js');
+let RobotStatus = require('./RobotStatus.js');
+
+module.exports = {
+  TriState: TriState,
+  DeviceInfo: DeviceInfo,
+  DebugLevel: DebugLevel,
+  ServiceReturnCode: ServiceReturnCode,
+  RobotMode: RobotMode,
+  RobotStatus: RobotStatus,
+};

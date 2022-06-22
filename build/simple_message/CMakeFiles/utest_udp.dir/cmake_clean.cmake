@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/utest_udp.dir/test/utest.cpp.o"
   "CMakeFiles/utest_udp.dir/test/utest_message.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/simple_message/lib/simple_message/utest_udp.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/simple_message/lib/simple_message/utest_udp"
+  "/home/adminuser/ws_moveitbk/devel/lib/simple_message/utest_udp.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/simple_message/utest_udp"
 )
 
 # Per-language clean rules from dependency scanning.

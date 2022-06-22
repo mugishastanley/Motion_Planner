@@ -1,1 +1,4 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/industrial_msgs/cmake/industrial_msgs-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(industrial_msgs_MSG_INCLUDE_DIRS "/home/adminuser/ws_moveitbk/src/industrial_core/industrial_msgs/msg")
+set(industrial_msgs_MSG_DEPENDENCIES trajectory_msgs;std_msgs)

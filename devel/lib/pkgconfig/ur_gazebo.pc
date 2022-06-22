@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/ur_gazebo/lib/pkgconfig/ur_gazebo.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: ur_gazebo
+Description: Description of ur_gazebo
+Version: 1.2.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

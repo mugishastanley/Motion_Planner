@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/goal_publisher.dir/src/goal_publisher.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/goal_publisher.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/goal_publisher"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/goal_publisher.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/goal_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

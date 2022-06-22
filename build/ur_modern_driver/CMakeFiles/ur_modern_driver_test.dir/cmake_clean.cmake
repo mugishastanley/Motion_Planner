@@ -18,8 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ur_modern_driver_test.dir/tests/ur/robot_mode.cpp.o"
   "CMakeFiles/ur_modern_driver_test.dir/tests/ur/rt_state.cpp.o"
   "CMakeFiles/ur_modern_driver_test.dir/tests/main.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_modern_driver_test.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_modern_driver_test"
+  "/home/adminuser/ws_moveitbk/devel/lib/ur_modern_driver/ur_modern_driver_test.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/ur_modern_driver/ur_modern_driver_test"
 )
 
 # Per-language clean rules from dependency scanning.

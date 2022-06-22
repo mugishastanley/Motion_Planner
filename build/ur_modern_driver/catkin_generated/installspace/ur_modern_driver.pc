@@ -1,4 +1,4 @@
-prefix=/home/adminuser/ws_moveit/install
+prefix=/home/adminuser/ws_moveitbk/install
 
 Name: ur_modern_driver
 Description: Description of ur_modern_driver

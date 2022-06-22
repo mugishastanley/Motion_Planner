@@ -1,1 +1,7 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/gennodejs/ros/ur_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

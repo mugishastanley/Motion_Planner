@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/filter_base.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/filter_base.h
 typeinfo
 -
 ros/assert.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/assert.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/assert.h
 ros/console.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/console.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/console.h
 ros/ros.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/ros.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/ros/ros.h
 moveit/planning_request_adapter/planning_request_adapter.h
 -
 class_loader/class_loader.hpp
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/n_point_filter.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/n_point_filter.h
 industrial_trajectory_filters/filter_base.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/smoothing_trajectory_filter.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/smoothing_trajectory_filter.h
 moveit/robot_trajectory/robot_trajectory.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/uniform_sample_filter.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/include/industrial_trajectory_filters/uniform_sample_filter.h
 industrial_trajectory_filters/filter_base.h
 -
 filters/filter_base.h
@@ -36,7 +36,7 @@ filters/filter_base.h
 pluginlib/class_list_macros.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/src/add_smoothing_filter.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/src/add_smoothing_filter.cpp
 moveit/planning_request_adapter/planning_request_adapter.h
 -
 class_loader/class_loader.hpp
@@ -48,13 +48,13 @@ ros/ros.h
 ros/console.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/src/n_point_filter.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/src/n_point_filter.cpp
 trajectory_msgs/JointTrajectory.h
 -
 industrial_trajectory_filters/n_point_filter.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/src/smoothing_trajectory_filter.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/src/smoothing_trajectory_filter.cpp
 industrial_trajectory_filters/smoothing_trajectory_filter.h
 -
 console_bridge/console.h
@@ -68,7 +68,7 @@ ros/ros.h
 ros/console.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_trajectory_filters/src/uniform_sample_filter.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_trajectory_filters/src/uniform_sample_filter.cpp
 industrial_trajectory_filters/uniform_sample_filter.h
 -
 kdl/velocityprofile_spline.hpp

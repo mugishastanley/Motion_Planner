@@ -15,8 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ur_driver.dir/src/ur/server.cpp.o"
   "CMakeFiles/ur_driver.dir/src/ur/stream.cpp.o"
   "CMakeFiles/ur_driver.dir/src/ros_main.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_driver.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_driver"
+  "/home/adminuser/ws_moveitbk/devel/lib/ur_modern_driver/ur_driver.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/ur_modern_driver/ur_driver"
 )
 
 # Per-language clean rules from dependency scanning.

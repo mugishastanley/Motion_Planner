@@ -1,1 +1,20 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package.lisp
+(cl:defpackage ur_msgs-srv
+  (:use )
+  (:export
+   "SETIO"
+   "<SETIO-REQUEST>"
+   "SETIO-REQUEST"
+   "<SETIO-RESPONSE>"
+   "SETIO-RESPONSE"
+   "SETPAYLOAD"
+   "<SETPAYLOAD-REQUEST>"
+   "SETPAYLOAD-REQUEST"
+   "<SETPAYLOAD-RESPONSE>"
+   "SETPAYLOAD-RESPONSE"
+   "SETSPEEDSLIDERFRACTION"
+   "<SETSPEEDSLIDERFRACTION-REQUEST>"
+   "SETSPEEDSLIDERFRACTION-REQUEST"
+   "<SETSPEEDSLIDERFRACTION-RESPONSE>"
+   "SETSPEEDSLIDERFRACTION-RESPONSE"
+  ))
+

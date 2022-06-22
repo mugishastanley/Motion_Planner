@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_cartesian.dir/src/move_cartesian.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_cartesian.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_cartesian"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_cartesian.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_cartesian"
 )
 
 # Per-language clean rules from dependency scanning.

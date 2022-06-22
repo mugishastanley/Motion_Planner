@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_cSpace.dir/src/move_cSpace.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_cSpace.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_cSpace"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_cSpace.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_cSpace"
 )
 
 # Per-language clean rules from dependency scanning.

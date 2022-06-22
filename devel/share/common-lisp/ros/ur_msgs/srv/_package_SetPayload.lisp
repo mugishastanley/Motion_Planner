@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package_SetPayload.lisp
+(cl:in-package ur_msgs-srv)
+(cl:export '(PAYLOAD-VAL
+          PAYLOAD
+          SUCCESS-VAL
+          SUCCESS
+))

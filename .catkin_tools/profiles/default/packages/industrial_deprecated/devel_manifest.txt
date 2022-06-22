@@ -1,5 +1,0 @@
-industrial_core/industrial_deprecated
-/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
-/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/share/industrial_deprecated/cmake/industrial_deprecatedConfig.cmake /home/adminuser/ws_moveit/devel/share/industrial_deprecated/cmake/industrial_deprecatedConfig.cmake
-/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/share/industrial_deprecated/cmake/industrial_deprecatedConfig-version.cmake /home/adminuser/ws_moveit/devel/share/industrial_deprecated/cmake/industrial_deprecatedConfig-version.cmake
-/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/lib/pkgconfig/industrial_deprecated.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/industrial_deprecated.pc

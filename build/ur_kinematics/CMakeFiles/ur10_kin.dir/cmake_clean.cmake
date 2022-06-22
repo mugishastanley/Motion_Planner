@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur10_kin.dir/src/ur_kin.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/ur_kinematics/lib/libur10_kin.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/ur_kinematics/lib/libur10_kin.so"
+  "/home/adminuser/ws_moveitbk/devel/lib/libur10_kin.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/libur10_kin.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/adminuser/ws_moveit/src/universal_robot/ur_kinematics"
+echo_and_run cd "/home/adminuser/ws_moveitbk/src/universal_robot/ur_kinematics"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/adminuser/ws_moveit/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/adminuser/ws_moveitbk/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/adminuser/ws_moveit/install/lib/python2.7/dist-packages:/home/adminuser/ws_moveit/build/ur_kinematics/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/adminuser/ws_moveit/build/ur_kinematics" \
+    PYTHONPATH="/home/adminuser/ws_moveitbk/install/lib/python2.7/dist-packages:/home/adminuser/ws_moveitbk/build/ur_kinematics/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/adminuser/ws_moveitbk/build/ur_kinematics" \
     "/usr/bin/python2" \
-    "/home/adminuser/ws_moveit/src/universal_robot/ur_kinematics/setup.py" \
+    "/home/adminuser/ws_moveitbk/src/universal_robot/ur_kinematics/setup.py" \
      \
-    build --build-base "/home/adminuser/ws_moveit/build/ur_kinematics" \
+    build --build-base "/home/adminuser/ws_moveitbk/build/ur_kinematics" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/adminuser/ws_moveit/install" --install-scripts="/home/adminuser/ws_moveit/install/bin"
+    --install-layout=deb --prefix="/home/adminuser/ws_moveitbk/install" --install-scripts="/home/adminuser/ws_moveitbk/install/bin"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrix_reader_5.dir/src/matrix_reader_5.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/matrix_reader_5.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/matrix_reader_5"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/matrix_reader_5.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/matrix_reader_5"
 )
 
 # Per-language clean rules from dependency scanning.

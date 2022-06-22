@@ -1,4 +1,4 @@
-prefix=/home/adminuser/ws_moveit/install
+prefix=/home/adminuser/ws_moveitbk/install
 
 Name: industrial_deprecated
 Description: Description of industrial_deprecated

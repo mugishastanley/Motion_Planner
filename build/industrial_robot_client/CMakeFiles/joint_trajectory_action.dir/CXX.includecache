@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/include/industrial_msgs/RobotMode.h
+/home/adminuser/ws_moveitbk/devel/include/industrial_msgs/RobotMode.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/include/industrial_msgs/RobotStatus.h
+/home/adminuser/ws_moveitbk/devel/include/industrial_msgs/RobotStatus.h
 string
 -
 vector
@@ -52,7 +52,7 @@ industrial_msgs/TriState.h
 industrial_msgs/TriState.h
 -
 
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/include/industrial_msgs/TriState.h
+/home/adminuser/ws_moveitbk/devel/include/industrial_msgs/TriState.h
 string
 -
 vector
@@ -68,7 +68,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/include/industrial_robot_client/joint_trajectory_action.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/include/industrial_robot_client/joint_trajectory_action.h
 ros/ros.h
 -
 actionlib/server/action_server.h
@@ -82,7 +82,7 @@ control_msgs/FollowJointTrajectoryFeedback.h
 industrial_msgs/RobotStatus.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/include/industrial_robot_client/utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/include/industrial_robot_client/utils.h
 vector
 -
 string
@@ -90,11 +90,11 @@ string
 map
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/generic_joint_trajectory_action_node.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/generic_joint_trajectory_action_node.cpp
 industrial_robot_client/joint_trajectory_action.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/industrial_robot_client/joint_trajectory_action.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/industrial_robot_client/joint_trajectory_action.h
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/joint_trajectory_action.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/joint_trajectory_action.cpp
 industrial_robot_client/joint_trajectory_action.h
 -
 industrial_robot_client/utils.h
@@ -104,7 +104,7 @@ industrial_utils/param_utils.h
 industrial_utils/utils.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/param_utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/param_utils.h
 map
 -
 vector
@@ -112,13 +112,13 @@ vector
 string
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/utils.h
 vector
 -
 string
 -
 urdf/model.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/urdf/model.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/urdf/model.h
 
 /opt/ros/melodic/include/actionlib/action_definition.h
 

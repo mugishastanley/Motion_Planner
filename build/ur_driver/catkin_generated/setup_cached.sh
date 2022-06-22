@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/adminuser/ws_moveit/devel/.private/ur_driver:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/adminuser/ws_moveit/devel/.private/ur_driver/lib:$LD_LIBRARY_PATH"
-export PWD='/home/adminuser/ws_moveit/build/ur_driver'
-export PYTHONPATH="/home/adminuser/ws_moveit/devel/.private/ur_driver/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/adminuser/ws_moveit/devel/.private/ur_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/adminuser/ws_moveit/src/universal_robot/ur_driver:$ROS_PACKAGE_PATH"
+export PWD='/home/adminuser/ws_moveitbk/build/ur_driver'

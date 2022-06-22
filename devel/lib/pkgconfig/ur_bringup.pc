@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/ur_bringup/lib/pkgconfig/ur_bringup.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: ur_bringup
+Description: Description of ur_bringup
+Version: 1.2.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

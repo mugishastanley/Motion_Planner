@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/tf_listener.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/tf_listener"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/tf_listener.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/tf_listener"
 )
 
 # Per-language clean rules from dependency scanning.

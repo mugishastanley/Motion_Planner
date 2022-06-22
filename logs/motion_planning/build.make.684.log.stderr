@@ -1,7 +1,0 @@
-[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer_28.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/adminuser/ws_moveit/src/motion_planning/src/matrix_storer_28.cpp:269:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpoints[m[K’
-   [01;31m[Kpoints[m[K[17][0]=-0.350985712576083;
-   [01;31m[K^~~~~~[m[K
-make[2]: *** [CMakeFiles/matrix_storer_28.dir/src/matrix_storer_28.cpp.o] Error 1
-make[1]: *** [CMakeFiles/matrix_storer_28.dir/all] Error 2
-make: *** [all] Error 2

@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/adminuser/ws_moveit/devel/.private/myur5_description:$CMAKE_PREFIX_PATH"
-export PWD='/home/adminuser/ws_moveit/build/myur5_description'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/adminuser/ws_moveit/devel/.private/myur5_description/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/adminuser/ws_moveit/src/myur5sim/myur5_description:$ROS_PACKAGE_PATH"
+export PWD='/home/adminuser/ws_moveitbk/build/myur5_description'

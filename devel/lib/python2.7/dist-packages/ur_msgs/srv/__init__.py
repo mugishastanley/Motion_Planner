@@ -1,1 +1,3 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/lib/python2.7/dist-packages/ur_msgs/srv/__init__.py
+from ._SetIO import *
+from ._SetPayload import *
+from ._SetSpeedSliderFraction import *

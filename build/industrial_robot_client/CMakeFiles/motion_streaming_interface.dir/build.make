@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client
+CMAKE_SOURCE_DIR = /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminuser/ws_moveit/build/industrial_robot_client
+CMAKE_BINARY_DIR = /home/adminuser/ws_moveitbk/build/industrial_robot_client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/motion_streaming_interface.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/motion_streaming_interface.dir/progress.make
 include CMakeFiles/motion_streaming_interface.dir/flags.make
 
 CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o: CMakeFiles/motion_streaming_interface.dir/flags.make
-CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o: /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminuser/ws_moveit/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o -c /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp
+CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o: /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminuser/ws_moveitbk/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o -c /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp
 
 CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp > CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp > CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.i
 
 CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp -o CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client/src/generic_joint_streamer_node.cpp -o CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.s
 
 CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o.requires:
 
@@ -88,51 +88,51 @@ motion_streaming_interface_OBJECTS = \
 # External object files for target motion_streaming_interface
 motion_streaming_interface_EXTERNAL_OBJECTS =
 
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/build.make
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/libindustrial_robot_client.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveit/devel/.private/simple_message/lib/libsimple_message_dummy.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libactionlib.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveit/devel/.private/industrial_utils/lib/libindustrial_utils.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/liburdf.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libclass_loader.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/libPocoFoundation.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroslib.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librospack.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroscpp.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librostime.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libcpp_common.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminuser/ws_moveit/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface"
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/src/generic_joint_streamer_node.cpp.o
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/build.make
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveitbk/devel/lib/libindustrial_robot_client.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveitbk/devel/lib/libsimple_message_dummy.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libactionlib.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /home/adminuser/ws_moveitbk/devel/lib/libindustrial_utils.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/liburdf.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libclass_loader.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/libPocoFoundation.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroslib.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librospack.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroscpp.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/librostime.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /opt/ros/melodic/lib/libcpp_common.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface: CMakeFiles/motion_streaming_interface.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminuser/ws_moveitbk/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motion_streaming_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/motion_streaming_interface.dir/build: /home/adminuser/ws_moveit/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface
+CMakeFiles/motion_streaming_interface.dir/build: /home/adminuser/ws_moveitbk/devel/lib/industrial_robot_client/motion_streaming_interface
 
 .PHONY : CMakeFiles/motion_streaming_interface.dir/build
 
@@ -145,6 +145,6 @@ CMakeFiles/motion_streaming_interface.dir/clean:
 .PHONY : CMakeFiles/motion_streaming_interface.dir/clean
 
 CMakeFiles/motion_streaming_interface.dir/depend:
-	cd /home/adminuser/ws_moveit/build/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client /home/adminuser/ws_moveit/src/industrial_core/industrial_robot_client /home/adminuser/ws_moveit/build/industrial_robot_client /home/adminuser/ws_moveit/build/industrial_robot_client /home/adminuser/ws_moveit/build/industrial_robot_client/CMakeFiles/motion_streaming_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminuser/ws_moveitbk/build/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client /home/adminuser/ws_moveitbk/src/industrial_core/industrial_robot_client /home/adminuser/ws_moveitbk/build/industrial_robot_client /home/adminuser/ws_moveitbk/build/industrial_robot_client /home/adminuser/ws_moveitbk/build/industrial_robot_client/CMakeFiles/motion_streaming_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motion_streaming_interface.dir/depend
 

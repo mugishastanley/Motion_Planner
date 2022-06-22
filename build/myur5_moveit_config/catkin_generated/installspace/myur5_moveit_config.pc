@@ -1,4 +1,4 @@
-prefix=/home/adminuser/ws_moveit/install
+prefix=/home/adminuser/ws_moveitbk/install
 
 Name: myur5_moveit_config
 Description: Description of myur5_moveit_config

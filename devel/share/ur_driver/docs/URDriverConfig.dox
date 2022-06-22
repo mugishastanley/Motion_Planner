@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/ur_driver/share/ur_driver/docs/URDriverConfig.dox
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~prevent_programming" : \b [bool] Prevent driver from continuously uploading 'prog' min: False, default: False, max: True
+

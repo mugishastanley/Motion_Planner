@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/lib/pkgconfig/industrial_deprecated.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: industrial_deprecated
+Description: Description of industrial_deprecated
+Version: 0.7.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

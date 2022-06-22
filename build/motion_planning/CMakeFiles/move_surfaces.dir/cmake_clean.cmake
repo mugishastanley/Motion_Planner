@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_surfaces.dir/src/move_surfaces.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_surfaces.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/move_surfaces"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_surfaces.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/move_surfaces"
 )
 
 # Per-language clean rules from dependency scanning.

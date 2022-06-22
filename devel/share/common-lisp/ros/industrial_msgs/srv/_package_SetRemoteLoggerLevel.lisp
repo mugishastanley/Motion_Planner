@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/_package_SetRemoteLoggerLevel.lisp
+(cl:in-package industrial_msgs-srv)
+(cl:export '(LEVEL-VAL
+          LEVEL
+          CODE-VAL
+          CODE
+))

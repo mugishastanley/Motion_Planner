@@ -1,4 +1,4 @@
-prefix=/home/adminuser/ws_moveit/install
+prefix=/home/adminuser/ws_moveitbk/install
 
 Name: industrial_robot_client
 Description: Description of industrial_robot_client

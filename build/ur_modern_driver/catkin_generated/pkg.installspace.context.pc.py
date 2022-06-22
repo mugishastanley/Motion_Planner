@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "actionlib;control_msgs;controller_manager;geometry_msgs;hardware_interface;industrial_msgs;roscpp;sensor_msgs;trajectory_msgs;ur_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lur_hardware_interface".split(';') if "-lur_hardware_interface" != "" else []
 PROJECT_NAME = "ur_modern_driver"
-PROJECT_SPACE_DIR = "/home/adminuser/ws_moveit/install"
+PROJECT_SPACE_DIR = "/home/adminuser/ws_moveitbk/install"
 PROJECT_VERSION = "0.1.0"

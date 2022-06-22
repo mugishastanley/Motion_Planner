@@ -1,1 +1,17 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/msg/_package.lisp
+(cl:defpackage industrial_msgs-msg
+  (:use )
+  (:export
+   "<DEBUGLEVEL>"
+   "DEBUGLEVEL"
+   "<DEVICEINFO>"
+   "DEVICEINFO"
+   "<ROBOTMODE>"
+   "ROBOTMODE"
+   "<ROBOTSTATUS>"
+   "ROBOTSTATUS"
+   "<SERVICERETURNCODE>"
+   "SERVICERETURNCODE"
+   "<TRISTATE>"
+   "TRISTATE"
+  ))
+

@@ -1,1 +1,20 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_ToolDataMsg.lisp
+(cl:in-package ur_msgs-msg)
+(cl:export '(ANALOG_INPUT_RANGE2-VAL
+          ANALOG_INPUT_RANGE2
+          ANALOG_INPUT_RANGE3-VAL
+          ANALOG_INPUT_RANGE3
+          ANALOG_INPUT2-VAL
+          ANALOG_INPUT2
+          ANALOG_INPUT3-VAL
+          ANALOG_INPUT3
+          TOOL_VOLTAGE_48V-VAL
+          TOOL_VOLTAGE_48V
+          TOOL_OUTPUT_VOLTAGE-VAL
+          TOOL_OUTPUT_VOLTAGE
+          TOOL_CURRENT-VAL
+          TOOL_CURRENT
+          TOOL_TEMPERATURE-VAL
+          TOOL_TEMPERATURE
+          TOOL_MODE-VAL
+          TOOL_MODE
+))

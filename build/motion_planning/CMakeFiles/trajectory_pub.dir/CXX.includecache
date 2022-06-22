@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/src/motion_planning/src/trajectory_pub.cpp
+/home/adminuser/ws_moveitbk/src/motion_planning/src/trajectory_pub.cpp
 ros/ros.h
-/home/adminuser/ws_moveit/src/motion_planning/src/ros/ros.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/ros/ros.h
 std_msgs/Float64.h
-/home/adminuser/ws_moveit/src/motion_planning/src/std_msgs/Float64.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/std_msgs/Float64.h
 geometry_msgs/Pose.h
-/home/adminuser/ws_moveit/src/motion_planning/src/geometry_msgs/Pose.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/geometry_msgs/Pose.h
 trajectory_msgs/JointTrajectory.h
-/home/adminuser/ws_moveit/src/motion_planning/src/trajectory_msgs/JointTrajectory.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/trajectory_msgs/JointTrajectory.h
 trajectory_msgs/JointTrajectoryPoint.h
-/home/adminuser/ws_moveit/src/motion_planning/src/trajectory_msgs/JointTrajectoryPoint.h
+/home/adminuser/ws_moveitbk/src/motion_planning/src/trajectory_msgs/JointTrajectoryPoint.h
 cmath
 -
 sstream

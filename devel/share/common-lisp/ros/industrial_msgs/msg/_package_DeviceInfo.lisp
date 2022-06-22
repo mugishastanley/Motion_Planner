@@ -1,1 +1,12 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/msg/_package_DeviceInfo.lisp
+(cl:in-package industrial_msgs-msg)
+(cl:export '(MODEL-VAL
+          MODEL
+          SERIAL_NUMBER-VAL
+          SERIAL_NUMBER
+          HW_VERSION-VAL
+          HW_VERSION
+          SW_VERSION-VAL
+          SW_VERSION
+          ADDRESS-VAL
+          ADDRESS
+))

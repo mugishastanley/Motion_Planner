@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_Digital.lisp
+(cl:in-package ur_msgs-msg)
+(cl:export '(PIN-VAL
+          PIN
+          STATE-VAL
+          STATE
+))

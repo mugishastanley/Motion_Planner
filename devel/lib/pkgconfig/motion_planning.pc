@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/pkgconfig/motion_planning.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: motion_planning
+Description: Description of motion_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

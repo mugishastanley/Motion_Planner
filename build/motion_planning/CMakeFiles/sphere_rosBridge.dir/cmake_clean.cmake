@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sphere_rosBridge.dir/src/sphere_rosBridge.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/sphere_rosBridge.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/sphere_rosBridge"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/sphere_rosBridge.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/sphere_rosBridge"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/lib/python2.7/dist-packages/industrial_msgs/srv/__init__.py
+from ._CmdJointTrajectory import *
+from ._GetRobotInfo import *
+from ._SetDrivePower import *
+from ._SetRemoteLoggerLevel import *
+from ._StartMotion import *
+from ._StopMotion import *

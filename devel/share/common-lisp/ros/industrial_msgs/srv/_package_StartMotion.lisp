@@ -1,1 +1,4 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/_package_StartMotion.lisp
+(cl:in-package industrial_msgs-srv)
+(cl:export '(CODE-VAL
+          CODE
+))

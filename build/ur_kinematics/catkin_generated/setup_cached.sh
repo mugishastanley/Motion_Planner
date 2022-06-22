@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/adminuser/ws_moveit/devel/.private/ur_kinematics:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/adminuser/ws_moveit/devel/.private/ur_kinematics/lib:$LD_LIBRARY_PATH"
-export PWD='/home/adminuser/ws_moveit/build/ur_kinematics'
-export PYTHONPATH="/home/adminuser/ws_moveit/devel/.private/ur_kinematics/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/adminuser/ws_moveit/devel/.private/ur_kinematics/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/adminuser/ws_moveit/src/universal_robot/ur_kinematics:$ROS_PACKAGE_PATH"
+export PWD='/home/adminuser/ws_moveitbk/build/ur_kinematics'

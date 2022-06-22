@@ -1,1 +1,19 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package.lisp
+(cl:defpackage ur_msgs-msg
+  (:use )
+  (:export
+   "<ANALOG>"
+   "ANALOG"
+   "<DIGITAL>"
+   "DIGITAL"
+   "<IOSTATES>"
+   "IOSTATES"
+   "<MASTERBOARDDATAMSG>"
+   "MASTERBOARDDATAMSG"
+   "<ROBOTMODEDATAMSG>"
+   "ROBOTMODEDATAMSG"
+   "<ROBOTSTATERTMSG>"
+   "ROBOTSTATERTMSG"
+   "<TOOLDATAMSG>"
+   "TOOLDATAMSG"
+  ))
+

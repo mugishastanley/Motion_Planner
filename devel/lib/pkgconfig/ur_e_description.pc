@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/ur_e_description/lib/pkgconfig/ur_e_description.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: ur_e_description
+Description: Description of ur_e_description
+Version: 1.2.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

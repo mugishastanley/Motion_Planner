@@ -1,5 +1,0 @@
-myur5sim/myur5_moveit_config
-/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/cmake.lock /home/adminuser/ws_moveit/devel/./cmake.lock
-/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/share/myur5_moveit_config/cmake/myur5_moveit_configConfig-version.cmake /home/adminuser/ws_moveit/devel/share/myur5_moveit_config/cmake/myur5_moveit_configConfig-version.cmake
-/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/share/myur5_moveit_config/cmake/myur5_moveit_configConfig.cmake /home/adminuser/ws_moveit/devel/share/myur5_moveit_config/cmake/myur5_moveit_configConfig.cmake
-/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/lib/pkgconfig/myur5_moveit_config.pc /home/adminuser/ws_moveit/devel/lib/pkgconfig/myur5_moveit_config.pc

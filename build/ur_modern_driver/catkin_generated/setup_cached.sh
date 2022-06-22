@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/adminuser/ws_moveit/devel/.private/ur_modern_driver:$CMAKE_PREFIX_PATH"
-export PWD='/home/adminuser/ws_moveit/build/ur_modern_driver'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/adminuser/ws_moveit/devel/.private/ur_modern_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/adminuser/ws_moveit/src/ur_modern_driver:$ROS_PACKAGE_PATH"
+export PWD='/home/adminuser/ws_moveitbk/build/ur_modern_driver'

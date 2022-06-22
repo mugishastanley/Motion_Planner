@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/des_point_pub.dir/src/des_point_pub.cpp.o"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/des_point_pub.pdb"
-  "/home/adminuser/ws_moveit/devel/.private/motion_planning/lib/motion_planning/des_point_pub"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/des_point_pub.pdb"
+  "/home/adminuser/ws_moveitbk/devel/lib/motion_planning/des_point_pub"
 )
 
 # Per-language clean rules from dependency scanning.

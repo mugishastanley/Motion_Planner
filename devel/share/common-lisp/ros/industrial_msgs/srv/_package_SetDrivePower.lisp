@@ -1,1 +1,6 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/_package_SetDrivePower.lisp
+(cl:in-package industrial_msgs-srv)
+(cl:export '(DRIVE_POWER-VAL
+          DRIVE_POWER
+          CODE-VAL
+          CODE
+))

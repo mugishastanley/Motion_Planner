@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/myur5_moveit_config/lib/pkgconfig/myur5_moveit_config.pc
+prefix=/home/adminuser/ws_moveitbk/devel
+
+Name: myur5_moveit_config
+Description: Description of myur5_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

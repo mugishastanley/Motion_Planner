@@ -1,1 +1,4 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/ur_msgs/cmake/ur_msgs-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(ur_msgs_MSG_INCLUDE_DIRS "/home/adminuser/ws_moveitbk/src/universal_robot/ur_msgs/msg")
+set(ur_msgs_MSG_DEPENDENCIES std_msgs)

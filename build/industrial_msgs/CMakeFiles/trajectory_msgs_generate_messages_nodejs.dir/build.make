@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminuser/ws_moveit/src/industrial_core/industrial_msgs
+CMAKE_SOURCE_DIR = /home/adminuser/ws_moveitbk/src/industrial_core/industrial_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminuser/ws_moveit/build/industrial_msgs
+CMAKE_BINARY_DIR = /home/adminuser/ws_moveitbk/build/industrial_msgs
 
 # Utility rule file for trajectory_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/adminuser/ws_moveit/build/industrial_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveit/src/industrial_core/industrial_msgs /home/adminuser/ws_moveit/src/industrial_core/industrial_msgs /home/adminuser/ws_moveit/build/industrial_msgs /home/adminuser/ws_moveit/build/industrial_msgs /home/adminuser/ws_moveit/build/industrial_msgs/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminuser/ws_moveitbk/build/industrial_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminuser/ws_moveitbk/src/industrial_core/industrial_msgs /home/adminuser/ws_moveitbk/src/industrial_core/industrial_msgs /home/adminuser/ws_moveitbk/build/industrial_msgs /home/adminuser/ws_moveitbk/build/industrial_msgs /home/adminuser/ws_moveitbk/build/industrial_msgs/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend
 

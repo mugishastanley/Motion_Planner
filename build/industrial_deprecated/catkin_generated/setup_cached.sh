@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/adminuser/ws_moveit/devel/.private/industrial_deprecated:$CMAKE_PREFIX_PATH"
-export PWD='/home/adminuser/ws_moveit/build/industrial_deprecated'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/adminuser/ws_moveit/devel/.private/industrial_deprecated/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/adminuser/ws_moveit/src/industrial_core/industrial_deprecated:$ROS_PACKAGE_PATH"
+export PWD='/home/adminuser/ws_moveitbk/build/industrial_deprecated'

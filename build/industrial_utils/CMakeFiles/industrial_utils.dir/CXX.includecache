@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/param_utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/param_utils.h
 map
 -
 vector
@@ -14,31 +14,31 @@ vector
 string
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/utils.h
 vector
 -
 string
 -
 urdf/model.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/include/industrial_utils/urdf/model.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/include/industrial_utils/urdf/model.h
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/param_utils.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/param_utils.cpp
 sstream
 -
 industrial_utils/param_utils.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/industrial_utils/param_utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/industrial_utils/param_utils.h
 industrial_utils/utils.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/industrial_utils/utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/industrial_utils/utils.h
 ros/ros.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/ros/ros.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/ros/ros.h
 urdf/urdfdom_compatibility.h
 -
 
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/utils.cpp
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/utils.cpp
 industrial_utils/utils.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/industrial_utils/utils.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/industrial_utils/utils.h
 ros/ros.h
-/home/adminuser/ws_moveit/src/industrial_core/industrial_utils/src/ros/ros.h
+/home/adminuser/ws_moveitbk/src/industrial_core/industrial_utils/src/ros/ros.h
 algorithm
 -
 

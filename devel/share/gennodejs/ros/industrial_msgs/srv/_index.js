@@ -1,1 +1,18 @@
-/home/adminuser/ws_moveit/devel/.private/industrial_msgs/share/gennodejs/ros/industrial_msgs/srv/_index.js
+
+"use strict";
+
+let StartMotion = require('./StartMotion.js')
+let StopMotion = require('./StopMotion.js')
+let SetDrivePower = require('./SetDrivePower.js')
+let CmdJointTrajectory = require('./CmdJointTrajectory.js')
+let SetRemoteLoggerLevel = require('./SetRemoteLoggerLevel.js')
+let GetRobotInfo = require('./GetRobotInfo.js')
+
+module.exports = {
+  StartMotion: StartMotion,
+  StopMotion: StopMotion,
+  SetDrivePower: SetDrivePower,
+  CmdJointTrajectory: CmdJointTrajectory,
+  SetRemoteLoggerLevel: SetRemoteLoggerLevel,
+  GetRobotInfo: GetRobotInfo,
+};

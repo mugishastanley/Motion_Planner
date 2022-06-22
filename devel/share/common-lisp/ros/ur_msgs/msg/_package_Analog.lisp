@@ -1,1 +1,8 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_Analog.lisp
+(cl:in-package ur_msgs-msg)
+(cl:export '(PIN-VAL
+          PIN
+          DOMAIN-VAL
+          DOMAIN
+          STATE-VAL
+          STATE
+))

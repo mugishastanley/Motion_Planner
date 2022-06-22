@@ -1,1 +1,7 @@
-/home/adminuser/ws_moveit/devel/.private/ur_msgs/lib/python2.7/dist-packages/ur_msgs/msg/__init__.py
+from ._Analog import *
+from ._Digital import *
+from ._IOStates import *
+from ._MasterboardDataMsg import *
+from ._RobotModeDataMsg import *
+from ._RobotStateRTMsg import *
+from ._ToolDataMsg import *
